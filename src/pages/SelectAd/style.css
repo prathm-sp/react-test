@@ -1,0 +1,48 @@
+.select-ad-root {
+  background: #fafafa;
+  padding: 20px;
+}
+
+.select-ad-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+}
+
+.select-ad-container > p {
+  font-weight: 600;
+  font-size: 24px;
+  align-self: flex-start;
+  padding: 20px;
+}
+
+.select-ad-sub-container {
+  padding: 20px;
+}
+
+.select-ad-container .next-button {
+  min-width: 180px;
+  margin: 100px 50px 50px 0px;
+  background: #0096ff;
+}
+
+.select-ad-container > a {
+  align-self: flex-end;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .select-ad-sub-container .checkbox-container:first-child {
+    margin-right: 40px;
+  }
+
+  .select-ad-sub-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}

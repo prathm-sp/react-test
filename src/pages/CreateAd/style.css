@@ -1,0 +1,77 @@
+.create-ad-root {
+  background: #fafafa;
+  padding: 20px;
+}
+
+.create-ad-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.create-ad-container > p {
+  font-weight: 600;
+  font-size: 16px;
+  align-self: flex-start;
+  margin-bottom: 30px;
+  color: #565e66;
+}
+
+.create-ad-sub-container {
+  padding: 20px;
+}
+
+.create-ad-container .input {
+  width: 100%;
+}
+
+.input-label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #565e66;
+  cursor: default;
+}
+
+.btn-container button {
+  min-width: 180px;
+  margin: 20px 0px;
+}
+
+.btn-container .back-button {
+  color: #000000;
+  background: #fafafa;
+}
+
+.btn-container .back-button:hover {
+  color: #000000;
+  background: #fafafa;
+}
+
+.btn-container .submit-button {
+  background: #0096ff;
+}
+
+@media (min-width: 768px) {
+  .create-ad-sub-container .checkbox-container:first-child {
+    margin-right: 40px;
+  }
+
+  .create-ad-sub-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn-container {
+    display: flex;
+    align-self: flex-end;
+  }
+  .btn-container .back-button {
+    margin-right: 20px;
+  }
+}

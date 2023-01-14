@@ -1,0 +1,31 @@
+.table-container {
+  border: 1px solid #e2e2e2;
+  background: #ffffff;
+}
+
+.toolbar-title,
+.table-head-content {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #565e66;
+}
+
+.table-head-content,
+.table-content {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.table-content {
+  color: #abafb3;
+  font-weight: 500;
+}
+
+.table-container .toolbar {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e2e2e2;
+}

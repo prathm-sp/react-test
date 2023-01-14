@@ -1,0 +1,42 @@
+p,
+span,
+a {
+  cursor: pointer;
+  color: #000000;
+}
+
+.nav-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.app-logo {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.right-content {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.right-content p:last-child {
+  margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .app-logo {
+    font-size: 24px;
+  }
+
+  .right-content {
+    font-size: 18px;
+  }
+
+  .right-content span:last-child {
+    margin-left: 20px;
+  }
+}
