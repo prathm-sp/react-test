@@ -1,31 +1,87 @@
 .table-container {
+  min-width: 50%;
+  position: relative;
   border: 1px solid #e2e2e2;
+  background: #ffffff;
+  border-radius: 6px;
+}
+
+.table {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.table th {
+  background: #fff;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  font-weight: 600;
+  color: #3d4650;
+  text-align: left;
+  font-size: 16px;
+}
+
+.table td {
+  border-top: 1px solid #ddd;
+  padding: 12px 15px;
+  background: #fff;
+  font-size: 16px;
+}
+
+.table tbody tr:first-child td {
+  border-top: none;
+}
+
+.table tbody tr td:first-child,
+.table thead tr th:first-child {
+  text-align: left;
+  transform: translateX(0px);
+  padding-right: 60px;
+}
+
+.table tbody tr td {
+  text-align: right;
+}
+
+.table tbody tr td {
+  transform: translateX(-19px);
+}
+
+.table tbody tr {
   background: #ffffff;
 }
 
-.toolbar-title,
-.table-head-content {
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  color: #565e66;
+.table-sub-container {
+  overflow: auto;
 }
 
-.table-head-content,
-.table-content {
-  padding-left: 10px;
-  font-size: 14px;
+.table tbody tr:last-child,
+.table tbody tr:last-child td {
+  background: #fafafa;
 }
 
-.table-content {
-  color: #abafb3;
-  font-weight: 500;
+.table thead tr th:first-child .th-content {
+  justify-content: flex-start;
 }
 
-.table-container .toolbar {
+.table thead .th-content {
   display: flex;
-  padding: 10px;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #e2e2e2;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.th-content svg {
+  height: 15px;
+}
+
+.th-content > div {
+  display: flex;
+  flex-direction: column;
+  height: 20px;
+}
+
+.th-content > div svg:last-child {
+  transform: translateY(-8px);
 }

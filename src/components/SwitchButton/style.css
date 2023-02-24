@@ -1,0 +1,59 @@
+.sb-button {
+  background: #ececec;
+  border-radius: 20px;
+  position: relative;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.sb-button div:first-child {
+  margin-right: 10px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.sb-button div:last-child {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.sb-button .activeIcon.chart-icon {
+  border-radius: 50px;
+  background: #0096ff;
+  top: 0px !important;
+  left: 0px !important;
+  height: 40px;
+  display: flex;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sb-button .activeIcon.chart-icon svg {
+  width: 30px;
+  height: 29px;
+}
+
+.sb-button .activeIcon.table-icon svg {
+  width: 30px;
+  height: 29px;
+}
+
+.sb-button .activeIcon.table-icon {
+  border-radius: 50px;
+  background: #0096ff;
+  top: 0px !important;
+  right: 0px !important;
+  height: 40px;
+  display: flex;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sb-button .activeIcon svg {
+  color: #ffffff;
+}
